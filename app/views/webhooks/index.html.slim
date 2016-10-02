@@ -1,0 +1,7 @@
+div webhooks
+
+div
+  - @webhooks.each do |webhook|
+    div = webhook.id
+
+  = link_to 'Create webhook', webhooks_path, method: :post

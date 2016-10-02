@@ -1,0 +1,2 @@
+module Webhooks::MessagesHelper
+end
